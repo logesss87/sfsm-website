@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-hero: "Poppins", sans-serif;
+  --font-heading: "Poppins", sans-serif;
+  --font-body: "Poppins", sans-serif;
+  --font-mono: "Poppins", sans-serif;
+
+  --color-deep-navy: #0B192C;
+  --color-warm-white: #FCFBF9;
+  --color-soft-grey: #F3F4F6;
+  --color-muted-gold: #C5A059;
+}
+
+body {
+  font-family: var(--font-body);
+  color: #111827;
+  background-color: var(--color-warm-white);
+}
+
+h1 {
+  font-family: var(--font-hero);
+  font-weight: 700;
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  font-weight: 600;
+}
+
+button, .cta-text {
+  font-family: var(--font-heading);
+  font-weight: 600;
+}
+
+.data-text {
+  font-family: var(--font-mono);
+  font-weight: 400;
+}
